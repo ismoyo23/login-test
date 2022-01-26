@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.bg_login{
+ 
+   height: 657px;
+   width: 100%;
+}
+.overflo{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.form_input{
+    margin-left: auto;
+    width: 50%;
+}
+
+.container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+  .header{
+      font-size: 43px;
+    margin-top: 40px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .buttonFacebook{
+      color: 'red';
+  }
+
+  .header_ponsel{
+    opacity: 0;
+  
+    
+    position: fixed;
+}
+
+  
+@media only screen and (max-width: 860px) {
+    .bg_login{
+        position: fixed;
+        z-index: -2;
+        opacity: 0;
+    }
+
+    .header_ponsel{
+        position: relative;
+        
+        opacity: 1;
+        width: 100%;
+       
+    }
+
+    .form_input{
+        margin-left: auto;
+        width: 100%;
+    }
+    .header{
+        font-size: 21px;
+ 
+      color: red;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+
+
+ 
+
+ 
